@@ -2513,3 +2513,65 @@ p {
   #formulario .--badge, #formulario .--badge-right {left: 24px;}
 }
 
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 12px;
+  bottom: 14px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+/* --- Estilos de Formulario Integrados --- */
+.php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 18px;
+  background: #fff;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.php-email-form input,
+.php-email-form textarea {
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.php-email-form input:focus,
+.php-email-form textarea:focus {
+  border-color: #5846f9;
+}
+
+.php-email-form input {
+  padding: 10px 15px;
+}
+
+.php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.php-email-form button[type=submit] {
+  background: #FB3E21;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.php-email-form button[type=submit]:hover {
+  background: #7b27d8;
+}
